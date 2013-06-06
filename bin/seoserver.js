@@ -1,6 +1,4 @@
-#!/usr/bin/env node
-
-
+!/usr/bin/env node
 
 var program = require('commander');
 var fs = require('fs');
@@ -25,4 +23,3 @@ program
   });
 
 program.parse(process.argv);
-
